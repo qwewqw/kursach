@@ -21,3 +21,9 @@
 
 # Собрать приложение в .exe
 - ```pyinstaller --noconfirm --onefile --windowed  "./main.py"```
+
+# Библиотеки для VS Code
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+- [Python Path](https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path)

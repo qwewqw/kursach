@@ -1,23 +1,23 @@
-# SetUp libs
+# Установка библиотек и зависимостей
 - ```python -m venv ./.venv```
 - ```.\.venv\Scripts\activate.bat```
 - ```pip install --upgrade pip```
 - ```pip install -r requirements.txt```
 
-# Run Code
+# Запуск кода
 - ```.\.venv\Scripts\activate.bat```
 - ```python main.py```
 
-# Build requirements.txt
+# Заполнить файл зависимостей
 - ```.\.venv\Scripts\activate.bat```
 - ```pip freeze > requirements.txt```
 
-# Run QT Designer
+# Запуск QT Designer
 - ```.\.venv\Scripts\activate.bat```
-- ```C:\Users\j-ssr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyqt5-tools designer```
-## Convert to design.py
+- ```pyqt5-tools designer```
+## Конвертирование to design.py
 - ```.\.venv\Scripts\activate.bat```
-- ```C:\Users\j-ssr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyuic5 ./components/GUI/design.ui -o ./components/GUI/design.py```
+- ```pyuic5 ./components/GUI/design.ui -o ./components/GUI/design.py```
 
-# Build app to share
-- ```C:\Users\j-ssr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyinstaller --noconfirm --onefile --windowed  "./main.py"```
+# Собрать приложение в .exe
+- ```pyinstaller --noconfirm --onefile --windowed  "./main.py"```
